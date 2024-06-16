@@ -1,0 +1,157 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: 0;
+    text-decoration: none;
+}
+
+body {
+    font-family: Helvetica, Arial, sans-serif;
+    background-color: rgb(234, 234, 234);
+}
+
+.login {
+    display: flex;
+    justify-content: center;
+    margin: 0 40px 0 40px;
+    padding-top: 100px;
+}
+
+.info {
+    text-align: left;
+    padding-right: 32px;
+    width: 580px;
+}
+
+.info img {
+    width: 320px;
+    padding-top: 92px;
+}
+
+.info p {
+    width: 500px;
+    font-size: 28px;
+}
+
+.conteudo {
+    text-align: center;
+    width: 396px;
+}
+
+.caixa {
+    background-color: white;
+    width: 396px;
+    border-radius: 10px;
+    box-shadow: rgb(183, 183, 183) 1px 3px 10px;
+    margin-top: 40px;
+    padding: 10px 0 24px 0;
+}
+
+.email-telefone input {
+    border-radius: 5px;
+    font-size: 17px;
+    width: 364px;
+    padding: 14px 16px;
+    margin: 6px 0;
+    border: solid 1px rgb(180, 180, 180);
+}
+
+.botao-entrar button {
+    color: rgb(255, 255, 255);
+    background-color: rgb(61, 61, 255);
+    width: 364px;
+    height: 48px;
+    font-size: 20px;
+    border-radius: 5px;
+    border: 0;
+    font-weight: bold;
+    margin-top: 6px;
+    cursor: pointer;
+}
+
+.esqueceu {
+    margin-top: 16px;
+}
+
+.traco {
+    background-color: rgb(180, 180, 180);
+    height: 0.1px;
+    margin: 20px 16px;
+    width: 364px;
+}
+
+.nova-conta button {
+    font-weight: bold;
+    padding: 0 16px;
+    color: white;
+    background-color: rgb(58, 193, 58);
+    width: 168px;
+    height: 48px;
+    font-size: 17px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.info-adicional{
+    font-size: 14px;
+    align-items: center;
+    margin: 28px auto;
+    width: 380px;
+}
+.info-adicional a{
+    font-weight: bold;
+}
+
+footer{
+    background-color: white;
+    padding-top: 20px;
+    height: 500px;
+}
+
+.footer-conteudo{
+    margin: 0 40px;
+}
+
+footer li{
+    display: inline-block;
+    padding-left: 10px;
+    font-size: 12px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 900px) {
+    .login {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 20px 0;
+    }
+
+    .info {
+        padding: 0;
+        text-align: center;
+        width: 400px;
+    }
+    .info p{
+        font-size: 24px;
+    }
+
+    .info img {
+        padding-top: 0;
+    }
+}
