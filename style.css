@@ -14,7 +14,7 @@ body {
 .login {
     display: flex;
     justify-content: center;
-    margin: 0 40px 0 40px;
+    margin: 0 40px 112px 40px;
     padding-top: 100px;
 }
 
@@ -93,34 +93,55 @@ body {
     cursor: pointer;
 }
 
-.info-adicional{
+.info-adicional {
     font-size: 14px;
     align-items: center;
     margin: 28px auto;
     width: 380px;
 }
-.info-adicional a{
+
+.info-adicional a {
     font-weight: bold;
 }
 
-footer{
+footer {
     background-color: white;
     padding-top: 20px;
-    height: 500px;
 }
 
-.footer-conteudo{
+.footer-conteudo {
+    color: #737373;
     margin: 0 40px;
 }
 
-footer li{
+.linguas li {
     display: inline-block;
     padding-left: 10px;
     font-size: 12px;
 }
 
+.footer-traco {
+    background-color: rgb(204, 204, 204);
+    height: 0.1px;
+    margin: 7px 0 8px 0;
+    width: 782px;
+}
 
+.footer-links{
+    width: 802px;
+}
 
+.footer-links li{
+    display: inline-block;
+    font-size: 12px;
+    padding-left: 10px;
+
+}
+
+.ano-meta{
+    font-size: 11px;
+    margin: 20px 0 20px 0;
+}
 
 
 
@@ -136,6 +157,7 @@ footer li{
 
 @media (max-width: 900px) {
     .login {
+        margin-bottom: 10px;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -147,11 +169,14 @@ footer li{
         text-align: center;
         width: 400px;
     }
-    .info p{
+
+    .info p {
         font-size: 24px;
+        width: 400px;
     }
 
     .info img {
         padding-top: 0;
     }
 }
+
