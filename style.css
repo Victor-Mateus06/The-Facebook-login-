@@ -26,7 +26,7 @@ body {
 
 .info img {
     width: 320px;
-    padding-top: 92px;
+    padding-top: 65px;
 }
 
 .info p {
@@ -72,6 +72,7 @@ body {
 
 .esqueceu {
     margin-top: 16px;
+    font-size: 14px;
 }
 
 .traco {
@@ -111,7 +112,7 @@ footer {
 
 .footer-conteudo {
     color: #737373;
-    margin: 0 40px;
+    margin: 0 180px;
 }
 
 .linguas li {
@@ -124,11 +125,11 @@ footer {
     background-color: rgb(204, 204, 204);
     height: 0.1px;
     margin: 7px 0 8px 0;
-    width: 782px;
+    width: 100%;
 }
 
 .footer-links{
-    width: 802px;
+    width: 100%;
 }
 
 .footer-links li{
@@ -139,11 +140,22 @@ footer {
 }
 
 .ano-meta{
+    height: 52px;
     font-size: 11px;
-    margin: 20px 0 20px 0;
+    padding: 20px 0 20px 0;
 }
 
+@media (max-width: 1074px){
+    .info p {
+        width: 500px;
+        font-size: 24px;
+    }
 
+    .footer-conteudo {
+        color: #737373;
+        margin: 0 40px;
+    }
+}
 
 
 
